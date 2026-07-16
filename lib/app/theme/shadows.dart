@@ -1,0 +1,45 @@
+import 'package:flutter/material.dart';
+
+class AppShadows {
+  AppShadows._();
+
+  static final List<BoxShadow> xs = [
+    BoxShadow(
+      color: Colors.black.withOpacity(0.03),
+      blurRadius: 4,
+      offset: const Offset(0, 2),
+    ),
+  ];
+
+  static final List<BoxShadow> sm = [
+    BoxShadow(
+      color: Colors.black.withOpacity(0.05),
+      blurRadius: 8,
+      offset: const Offset(0, 4),
+    ),
+  ];
+
+  static final List<BoxShadow> md = [
+    BoxShadow(
+      color: Colors.black.withOpacity(0.08),
+      blurRadius: 16,
+      offset: const Offset(0, 8),
+    ),
+  ];
+
+  static final List<BoxShadow> lg = [
+    BoxShadow(
+      color: Colors.black.withOpacity(0.10),
+      blurRadius: 24,
+      offset: const Offset(0, 12),
+    ),
+  ];
+
+  static final List<BoxShadow> floating = [
+    BoxShadow(
+      color: Colors.black.withOpacity(0.15),
+      blurRadius: 32,
+      offset: const Offset(0, 16),
+    ),
+  ];
+}

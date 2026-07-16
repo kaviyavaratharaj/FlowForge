@@ -53,6 +53,24 @@ flutter:
       - assets/svg/
       - assets/animations/
       - assets/lottie/
+  fonts:
+    - family: Satoshi
+      fonts:
+        - asset: assets/fonts/satoshi/satoshi_regular.otf
+          weight: 400
+        - asset: assets/fonts/satoshi/satoshi_medium.otf
+          weight: 500
+        - asset: assets/fonts/satoshi/satoshi_bold.otf
+          weight: 700
+
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter/inter_regular.otf
+          weight: 400
+        - asset: assets/fonts/inter/inter_medium.otf
+          weight: 500
+        - asset: assets/fonts/inter/inter_bold.otf
+          weight: 700
 
   # To add assets to your application, add an assets section, like this:
   # assets:
