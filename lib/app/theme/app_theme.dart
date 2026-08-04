@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'app_colors.dart';
 import 'app_fonts.dart';
-import 'app_text_styles.dart';
+import 'text_style.dart';
 
 class AppTheme {
   AppTheme._();
